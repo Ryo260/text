@@ -1,3 +1,14 @@
+# 2019/07/11
+## コーディング
+- @SuppressWarnings
+    - @SuppressWarningsを先頭に置くことで警告を抑制してくれる効果がある。  
+    - @SuppressWarnings(“設定値”)の設定値に入れる文字によって特定の警告を抑制してくれる。  
+    - @SuppressWarnings("cast") // 不要なキャスト  
+    - @SuppressWarnings("deprecation") //非推奨のメンバーを利用している  
+    - @SuppressWarnings("divzero") //ゼロ除算  
+    - @SuppressWarnings("unused") //使われていない変数がある  
+-修正を行う際はこまめに保存し、実行する。  
+ためしためし行わないとどの点が修正失敗したのか不明になる。
 
 #07/10
 ## 学習
