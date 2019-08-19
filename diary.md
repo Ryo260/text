@@ -1,3 +1,60 @@
+# 2019/08/18
+## 自習
+### javaの復習
+エスケープシーケンスキーの復習
+
+\(円マーク)が一つでは@の表示になるが、\\にすると「\」が表示される。
+タブ入力は「\t」
+System.out.println("ここで「\」がエスケープシーケンス");
+
+
+""を外して記載すると八進数とかで表示可能。
+		//8進数
+		System.out.println(06);
+		System.out.println(024);
+		System.out.println(015);
+
+		//16進数字
+		System.out.println(0x6);
+		System.out.println(0x14);
+		System.out.println(0xD);
+
+
+
+# 2019/08/17
+## 自習
+### Java復習
+- メソッドについて
+#### public static void メソッド名(){}
+「void」は戻り値がないということ。
+戻り値がある場合、
+「void」に型を設定する。
+メソッドの引数の中でメソッドを呼び出すことができる。
+
+
+
+### 失敗集
+- メソッドの定義でpublic static void を忘れた。
+
+- メソッドの引数の記載箇所で型の設定を忘れた。
+
+- 戻り値の記載で「return」,「;」を忘れた。
+- 「""」を忘れた。
+
+# 2019/08/16
+## 自習
+### 失敗集
+
+	「import.java.util.Scanner;」
+		↓
+	「import java.util.Scanner;」
+
+
+	スキャナーインスタンスの初期化
+	「Scanner scanner = sccaner(System.in);」
+	↓
+	「Scanner scanner = new Scanner(System.in);」
+
 # 2019/08/09
 ## 業務
 ### エクセル
@@ -25,6 +82,7 @@ COUNTIF(セルA;セルB,"カウントする文字列")
 - そもそもシステムを理解できていない箇所が多い
 
 ## 自習
+
 ### 背景  
 	毎日「○月○日の業務」という日誌のファイルを作成している。
 	たぶん初心者の知識で自動的にそのファイルを全て作成することが
