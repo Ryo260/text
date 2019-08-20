@@ -17,8 +17,8 @@
 
 ### Java復習
 真偽値のメソッド
-	- 俺の記載
-	---------------------------------------------------------
+- 俺の記載
+	
 	public static void printData(){
 		System.out.println(person.isHealthy(bmi));
 	}
@@ -28,9 +28,7 @@
 		}else{
 			return "健康ではありません";
 		}
-	-----------------------------------------------------------
-	- より正しい記載
-	----------------------------------------------------------
+- より正しい記載
 	public static void printData(){
 		if(isHealthy(bmi)){
 			System.out.println("健康です");
