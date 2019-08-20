@@ -1,3 +1,54 @@
+# 2019/08/20
+
+## 自習
+### while文復習
+
+	int i = 1;
+	while(i<=5){
+		System.out.println(i + "回くりかえす");
+		i++;
+	}
+### for文復習
+
+	for(int i=1; i<=5; i++)
+			System.out.println(i + "回くりかえす");
+	}
+
+
+### Java復習
+真偽値のメソッド
+	- 俺の記載
+	---------------------------------------------------------
+	public static void printData(){
+		System.out.println(person.isHealthy(bmi));
+	}
+	pubilc static String isHealthy(double bmi){
+		if(bmi >= 18.5 && bmi <25.0){
+			return "健康です";
+		}else{
+			return "健康ではありません";
+		}
+	-----------------------------------------------------------
+	- より正しい記載
+	----------------------------------------------------------
+	public static void printData(){
+		if(isHealthy(bmi)){
+			System.out.println("健康です");
+		}else{
+			System.out.println("不健康です");
+	public static voolean isHealthy(double bmi){
+		return bmi >= && bmi < 25.0;
+
+
+
+
+### 失敗集
+『メソッド名』を記述し忘れた。
+	public static boolean isHealthy(double bmi) {
+
+	return bmi >= 18.5 && bmi < 25.0;
+  
+	}
 # 2019/08/18
 ## 自習
 ### javaの復習
