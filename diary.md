@@ -29,6 +29,7 @@
 			return "健康ではありません";
 		}
 より正しい記載  
+
 	public static void printData(){
 		if(isHealthy(bmi)){
 			System.out.println("健康です");
