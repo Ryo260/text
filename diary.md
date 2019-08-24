@@ -1,5 +1,62 @@
-# 2019/08/24
+c# 2019/08/24
+## 自習
+1日目
 
+	lass Bicycle {
+
+
+	  private static name;
+
+
+	  setName(String name){
+
+	    this.name = name;
+
+	  }
+
+	  getName(){
+
+	    return this.name;
+
+	  }
+
+	}
+
+
+	class Main {
+
+	  public static void main(String[] args) {
+
+
+	    Bicycle.bicycle = new Bicycle();
+
+
+	    bicycle.name = "ビアンキ";
+
+
+
+	System.out.println("【自転車の情報】");
+
+
+	    System.out.println("名前：" + name);
+
+	  }
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2019/08/23
 ## 自習
 ### setter(),getter()
 javaでは基本的にインスタンスフィールドはprivateにし、メソッドはpublicにして、  
