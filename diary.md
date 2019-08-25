@@ -1,6 +1,6 @@
 # 2019/08/25
 ## 間違い
-1. クラス変数の型の箇所に「static」を入力していた。
+1. インスタンス変数の型の箇所に「static」を入力していた。
 1. getNameメソッド,「public String」がなかった。
 1. setNameメソッドに「public String」がなかった。
 1. setNameメソッドを使用してクラス変数nameに値を入れることをしなかった。
