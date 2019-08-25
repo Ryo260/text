@@ -1,4 +1,54 @@
-c# 2019/08/24
+# 2019/08/25
+## 間違い
+1. クラス変数の型の箇所に「static」を入力していた。
+1. getNameメソッド,「public String」がなかった。
+1. setNameメソッドに「public String」がなかった。
+1. setNameメソッドを使用してクラス変数nameに値を入れることをしなかった。
+1. getNameメソッドを使用してクラス変数nameを呼び出すをことをしなかった。
+## 自習
+	class Bicycle {
+
+	  private String name;
+
+
+	  public void setName(String name){
+
+	    this.name = name;
+
+	  }
+
+	  public String getName(){
+
+	    return this.name;
+
+	  }
+
+	}
+
+
+	class Main {
+
+	  public static void main(String[] args) {
+
+	    Bicycle bicycle = new Bicycle();
+
+	    bicycle.setName("ビアンキ");
+
+
+
+	    System.out.println("【自転車の情報】");
+
+	    System.out.println("名前：" + bicycle.getName());
+
+
+	  }
+
+	}
+
+
+
+
+# 2019/08/24
 ## 自習
 1日目
 
@@ -43,18 +93,6 @@ c# 2019/08/24
 	  }
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
 
 # 2019/08/23
 ## 自習
