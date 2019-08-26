@@ -4,7 +4,6 @@ class Main {
     bicycle.setName("ビアンキ");
     bicycle.setColor("緑");
     
-    bicycle.printData(getName(),getColor());
-
+    bicycle.printData(bicycle.getName(),bicycle.getColor());
   }
 }
