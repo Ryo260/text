@@ -1,0 +1,22 @@
+class Bicycle {
+  private String name;
+  private String color;
+  
+  public void setName(String name){
+    this.name = name; 
+  }
+  public String getName(){
+    return this.name;
+  }
+  public void setColor(String name){
+    this.name = name; 
+  }
+  public String getColor(){
+    return this.name;
+  }  
+  public void printData(String name,String color){
+    System.out.println("【自転車の情報】");
+    System.out.println("名前：" + this.getName());
+    System.out.println("色：" + this.getColor());
+  }
+}
