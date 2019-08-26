@@ -1,0 +1,10 @@
+class Main {
+  public static void main(String[] args) {
+    Bicycle bicycle = new Bicycle();
+    bicycle.setName("ビアンキ");
+    bicycle.setColor("緑");
+    
+    bicycle.printData(getName(),getColor());
+
+  }
+}
