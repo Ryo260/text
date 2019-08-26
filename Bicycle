@@ -8,11 +8,11 @@ class Bicycle {
   public String getName(){
     return this.name;
   }
-  public void setColor(String name){
-    this.name = name; 
+  public void setColor(String color){
+    this.color = color; 
   }
   public String getColor(){
-    return this.name;
+    return this.color;
   }  
   public void printData(String name,String color){
     System.out.println("【自転車の情報】");
