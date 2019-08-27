@@ -1,0 +1,53 @@
+class Car{
+  private String name;
+  private String color;
+  private int distance;
+  private int fuel = 100;
+  
+  public void setName(String name){
+    this.name = name; 
+  }
+  public String getName(){
+    return this.name;
+  }
+  public void setColor(String color){
+    this.color = color; 
+  }
+  public String getColor(){
+    return this.color;
+  }  
+  public void setDistance(int distance){
+    this.distance += distance; 
+  }
+  public int getDistance(){
+    return this.distance;
+  }  
+  public void setFuel(int fuel){
+    this.fuel += fuel; 
+  }
+  public int getFuel(){
+    return this.fuel;
+  }  
+  public void printData(String name,String color){
+    System.out.println("【車の情報】");
+    System.out.println("名前：" + this.getName());
+    System.out.println("色：" + this.getColor());
+    System.out.println("走行距離：" + this.getDistance() + "km");
+    System.out.println("ガソリン量："+ this.getFuel() + "L");
+  }
+  public void run(int distance,int fuel){
+    System.out.println( distance + "km走ります");
+    
+    if(this.distanc =< this.fuel){
+      setDistance(this.distance-this.fuel);
+    }else{
+      System.out.println("ガソリンが足りません");
+    }
+    
+    this.setDistance(distance);
+    System.out.println("走行距離：" + distance + "km");
+    System.out.println("ガソリン量：" + fuel + "L");
+  }  
+    
+
+}
