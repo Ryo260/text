@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
     Bicycle bicycle = new Bicycle();
@@ -5,5 +7,32 @@ class Main {
     bicycle.setColor("緑");
     
     bicycle.printData(bicycle.getName(),bicycle.getColor());
+    System.out.println("-----------------");
+    
+    System.out.print("走る距離を入力してください：");
+    
+    Scanner scanner = new Scanner(System.in);
+    int distance = scanner.nextInt();
+    bicycle.run(distance);
+
+    System.out.println("=================");
+    
+    Car car = new Car();
+    car.setName("フェラーリ");
+    car.setColor("赤");
+    
+    System.out.println("【車の情報】");
+    
+    car.printData(car.getName(),car.getColor());
+    
+    System.out.println("-----------------");
+    System.out.println("走る距離を入力してください：");
+    
+    Scanner scanner = new Scanner(System.in);
+    int distance = scanner.nextInt();
+    car.run(distance,fuel);
+    
+    
+
   }
 }
