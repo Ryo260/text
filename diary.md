@@ -1,3 +1,65 @@
+# 2019/09/10
+## 自習
+package java0910;
+
+	public class Practice02 {
+	    public static void main(String[] args) {
+		//1から10までの和を求めるプログラムを作成せよ。
+		//ただし、for文を用いること。
+		int i=0;
+		int sum=0;
+		for(i=0;i<11;i++){
+		    sum +=i;
+		}
+		System.out.println("1から10の和は"+ sum );
+	    }
+	}
+	package java0910;
+
+	import java.util.Scanner;
+
+	public class Practice03 {
+
+	    public static void main(String[] args) {
+		//int型の変数nが偶数か奇数か判定するプログラムを作成せよ。
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		if(n%2==0){
+		    System.out.println("偶数です");
+		}else{
+		    System.out.println("奇数です");
+		}
+	    }
+	}
+
+	package java0910;
+
+	import java.util.Scanner;
+
+	public class Practice04 {
+
+	    public static void main(String[] args) {
+		//int型の変数nが0まで1ずつ増減するプログラムを作成せよ。
+		//nが正の場合は減り、負の場合は増えていくこと。
+		System.out.print("整数を入力してください：");
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		int i =0;
+		System.out.println(n);
+		if(n<0){
+		    for(i=n;i>=0;i++){
+			System.out.println(i);
+		    }
+		}else{
+		    System.out.println("0よりでかい");
+		    for(i=n;i<=0;i--){
+			System.out.println(i);
+		}
+
+	    }
+	    }
+	    }
+https://tech.pjin.jp/blog/2017/08/07/java-programing-exercise-1/
 # 2019/09/02
 ## 自習
 Java道場コースⅡが完了
