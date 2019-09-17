@@ -18,6 +18,9 @@ DNSのサービスを提供するコンピュータのこと
 ネットワーク上でコンピュータを識別するための名前  
 #### hostsファイルについて  
 ホスト名とIPアドレスの対応付けを書いておくファイル  
+	# For example:
+	# localhost name resolution is handle within DNS itself.
+	  ここにIPアドレス	
 
 # 2019/09/10
 ## 自習
